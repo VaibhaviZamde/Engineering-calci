@@ -48,22 +48,7 @@ class Task1
 		while(choice!='C');
 	}
 }
-	case '-':
-		System.out.println("Result: " + (a - b));
-		break;
-	case '*':
-		System.out.println("Result: " + (a * b));
-		break;
-	case '/':
-		if (b != 0) 
-		{
-		 	System.out.println("Result: " + ((double) a / b));
-		} 
-		else 
-		{
-            		System.out.println("Error: Cannot divide by zero.");
-        	}
-       		break;
+	
 
 
 
